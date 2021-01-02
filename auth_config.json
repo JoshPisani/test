@@ -1,0 +1,7 @@
+{
+  "domain": "shithead.au.auth0.com",
+  "clientId": "15VoL1zQOUAVZdFhC4cOIUSfJDUYLdTZ",
+  "audience": "shithead",
+  "apiUri": "http://localhost:3000",
+  "appUri": "http://localhost:4200"
+}
