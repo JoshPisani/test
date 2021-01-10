@@ -2,12 +2,13 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { ProfileComponent } from './pages/profile/profile.component';
 import { ExternalApiComponent } from './pages/external-api/external-api.component';
+import { WelcomeComponent } from './pages/welcome/welcome.component';
 import { AuthGuard } from '@auth0/auth0-angular';
 
 const routes: Routes = [
   {
     path: '',
-    component: ProfileComponent,
+    component: WelcomeComponent,
     canActivate: [AuthGuard],
   },
   {

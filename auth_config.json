@@ -2,6 +2,6 @@
   "domain": "shithead.au.auth0.com",
   "clientId": "15VoL1zQOUAVZdFhC4cOIUSfJDUYLdTZ",
   "audience": "shithead",
-  "apiUri": "https://1a37d89d5655.ngrok.io",
+  "apiUri": "https://dad3c8da7e1f.au.ngrok.io",
   "appUri": "https://shithead2.stackblitz.io/"
 }

@@ -1,10 +1,10 @@
-import { Component, OnInit } from '@angular/core';
-import { ApiService } from '../../api.service';
+import { Component, OnInit } from "@angular/core";
+import { ApiService } from "../../api.service";
 
 @Component({
-  selector: 'app-external-api',
-  templateUrl: './external-api.component.html',
-  styleUrls: ['./external-api.component.css'],
+  selector: "app-external-api",
+  templateUrl: "./external-api.component.html",
+  styleUrls: ["./external-api.component.css"]
 })
 export class ExternalApiComponent {
   responseJson: string;
@@ -15,7 +15,7 @@ export class ExternalApiComponent {
     this.api
       .ping$()
       .subscribe(
-        (res) => (this.responseJson = JSON.stringify(res, null, 2).trim())
+        res => (this.responseJson = JSON.stringify(res, null, 2).trim())
       );
   }
 }

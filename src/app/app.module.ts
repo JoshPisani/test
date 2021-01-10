@@ -16,6 +16,7 @@ import { ExternalApiComponent } from './pages/external-api/external-api.componen
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { AuthHttpInterceptor, AuthModule } from '@auth0/auth0-angular';
 import { environment as env } from '../environments/environment';
+import { WelcomeComponent } from './pages/welcome/welcome.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { environment as env } from '../environments/environment';
     HeroComponent,
     LoadingComponent,
     ExternalApiComponent,
+    WelcomeComponent,
   ],
   imports: [
     BrowserModule,
