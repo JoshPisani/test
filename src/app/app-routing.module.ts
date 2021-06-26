@@ -11,6 +11,11 @@ const routes: Routes = [
     component: WelcomeComponent,
     canActivate: [AuthGuard],
   },
+  // {
+  //   path: 'profile',
+  //   component: ProfileComponent,
+  //   canActivate: [AuthGuard],
+  // },
   {
     path: 'external-api',
     component: ExternalApiComponent,

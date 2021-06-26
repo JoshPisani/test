@@ -1,7 +1,11 @@
 <div class="container mt-5">
 	<div class="row align-items-center profile-header mb-5 text-center text-md-left">
 		<div class="col-md">
-			<h2>{{ user.displayName }}</h2>
+			<h2>Welcome, {{ user.displayName }}</h2>
+			<p></p>
+			<p>Games Played: {{ user.gamesPlayed }}</p>
+			<p>Games Lost: {{ user.gamesLost }}</p>
+  <button class="btn btn-primary mb-5" (click)="newGame()">New Game</button>
 		</div>
 	</div>
 
